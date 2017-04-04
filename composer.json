@@ -29,7 +29,7 @@
     },
     "target-dir": "ImaginaLabs/IMGImageBundle",
     "autoload": {
-        "psr-0": { "Comur\\ImageBundle": "" }
+        "psr-0": { "ImaginaLabs\\IMGImageBundle": "" }
     },
     "extra": {
         "branch-alias": {
