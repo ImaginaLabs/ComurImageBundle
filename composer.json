@@ -1,15 +1,15 @@
 {
     "name": "img/image-bundle",
     "type": "symfony-bundle",
-    "description": "A bundle providing fields for image upload with jquery upload and image cropping with jcrop for symfony2",
+    "description": "Image upload, crop and gallery bundle for Symfony 3",
     "keywords": ["Form Type", "image", "upload", "crop", "jcrop", "jquery upload"],
-    "homepage": "https://github.com/comur/ComurImageBundle",
+    "homepage": "https://github.com/ImaginaLabs/IMGImageBundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Can OMUR",
-            "email": "omur.can@gmail.com",
-            "homepage": "http://canomur.com"
+            "name": "Steve Cotonnec",
+            "email": "steve.cotonnec@imagina.io",
+            "homepage": "http://imagina.io"
         }
     ],
     "require": {
@@ -27,7 +27,7 @@
         "friendsofsymfony/jsrouting-bundle": "@stable",
         "jms/translation-bundle": "@stable"
     },
-    "target-dir": "Comur/ImageBundle",
+    "target-dir": "ImaginaLabs/IMGImageBundle",
     "autoload": {
         "psr-0": { "Comur\\ImageBundle": "" }
     },
