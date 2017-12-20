@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Comur\ImageBundle\DependencyInjection\Compiler;
+namespace ImaginaLabs\IMGImageBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -26,7 +26,7 @@ class FormPass implements CompilerPassInterface
      */
     public function process(ContainerBuilder $container)
     {
-        $template = "ComurImageBundle:Form:fields.html.twig";
+        $template = "IMGImageBundle:Form:fields.html.twig";
         $resources = $container->getParameter('twig.form.resources');
         // Ensure it wasn't already added via config
         if (!in_array($template, $resources)) {
@@ -41,7 +41,7 @@ class FormPass implements CompilerPassInterface
             $container->setParameter('twig.form.resources', $resources);
         }
 
-        $template = "ComurImageBundle:Form:croppable_image_modal.html.twig";
+        $template = "IMGImageBundle:Form:croppable_image_modal.html.twig";
         // Ensure it wasn't already added via config
         if (!in_array($template, $resources)) {
             // If form_div_layout.html.twig is found, insert ComurImageBundle right after
