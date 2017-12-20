@@ -1,5 +1,5 @@
 <?php
-namespace Comur\ImageBundle\Twig;
+namespace ImaginaLabs\IMGImageBundle\Twig;
 
 class ThumbExtension extends \Twig_Extension implements \Twig_Extension_GlobalsInterface
 {
