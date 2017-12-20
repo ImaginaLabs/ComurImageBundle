@@ -16,7 +16,7 @@
         "php": ">=5.3.0",
         "ext-gd": "*",
         "symfony/http-foundation": "~2.2",
-        "symfony/form": "@stable",
+        "symfony/form": "~2.2|3.*|4.*",
         "symfony/validator": "~2.2",
         "symfony/routing": "~2.2",
         "symfony/config": "~2.2",
