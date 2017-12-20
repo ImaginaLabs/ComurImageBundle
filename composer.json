@@ -1,5 +1,5 @@
 {
-    "name": "img/image-bundle",
+    "name": "imagina/image-bundle",
     "type": "symfony-bundle",
     "description": "Image upload, crop and gallery bundle for Symfony 3",
     "keywords": ["Form Type", "image", "upload", "crop", "jcrop", "jquery upload"],
