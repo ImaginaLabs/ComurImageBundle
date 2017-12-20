@@ -1,6 +1,6 @@
 <?php
 
-namespace Comur\ImageBundle\Form\Type;
+namespace ImaginaLabs\IMGImageBundle\Form\Type;
 
 use Symfony\Component\Form\AbstractType;
 // use Symfony\Component\Form\FormBuilder;
