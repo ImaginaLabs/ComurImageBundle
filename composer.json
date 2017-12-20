@@ -24,7 +24,6 @@
         "symfony/class-loader":"~2.2|3.*|4.*",
         "twig/twig": "~2.2|3.*|4.*",
         "twig/extensions": "~1.0",
-        "friendsofsymfony/jsrouting-bundle": "@stable",
     },
     "target-dir": "ImaginaLabs/IMGImageBundle",
     "autoload": {
