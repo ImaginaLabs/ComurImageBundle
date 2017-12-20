@@ -1,6 +1,6 @@
 <?php
 
-namespace Comur\ImageBundle\DependencyInjection;
+namespace ImaginaLabs\IMGImageBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
