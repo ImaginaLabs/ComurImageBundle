@@ -22,7 +22,7 @@
         "symfony/config": "~2.2",
         "symfony/twig-bridge": "~2.2",
         "symfony/class-loader":"~2.2",
-        "twig/twig": "~1.12",
+        "twig/twig": "~1.12|4.*",
         "twig/extensions": "~1.0",
         "friendsofsymfony/jsrouting-bundle": "@stable",
         "jms/translation-bundle": "@stable"
