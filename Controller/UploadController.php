@@ -1,6 +1,6 @@
 <?php
 
-namespace ImaginaLabs/IMGImageBundle\Controller;
+namespace ImaginaLabs\IMGImageBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 
 use Symfony\Component\Finder\Finder;
 
-use ImaginaLabs/IMGImageBundle\Handler\UploadHandler;
+use ImaginaLabs\IMGImageBundle\Handler\UploadHandler;
 
 class UploadController extends Controller
 {
