@@ -1,11 +1,11 @@
 <?php
 
-namespace ImaginaLabs/IMGImageBundle;
+namespace ImaginaLabs\IMGImageBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
-use ImaginaLabs/IMGImageBundle\DependencyInjection\Compiler\FormPass;
+use ImaginaLabs\IMGImageBundle\DependencyInjection\Compiler\FormPass;
 
 class ComurImageBundle extends Bundle
 {
